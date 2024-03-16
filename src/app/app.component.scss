@@ -1,0 +1,42 @@
+
+
+#gridContainer{
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr 1fr; 
+    grid-template-rows: 0.1fr 1.9fr 1fr;  
+    gap: 5px 10px; 
+    grid-template-areas: 
+      "toolbarDiv toolbarDiv toolbarDiv"
+      "navbarDiv clothesDiv clothesDiv"
+      "navbarDiv clothesDiv clothesDiv"; 
+      padding-bottom: 34vh;
+  }
+
+
+.toolbarDiv{
+    grid-area: toolbarDiv;
+    width: 100%;
+    height: 10vh;
+    padding-top: 3vh;
+    background-color: #000000;
+
+  }
+
+
+.navbarDiv{
+    grid-area: navbarDiv;
+    background: rgb(126, 7, 7);
+    background: linear-gradient(90deg, rgb(132, 17, 17) 50%, rgb(108, 20, 20) 100%);    padding: 10vh;
+    
+  }
+
+
+.clothesDiv{
+    grid-area: clothesDiv;
+   padding: 10px;
+   height: 110vh;
+   max-height: max-content;
+   background: rgb(156,76,51);
+background: linear-gradient(0deg, rgba(156,76,51,1) 0%, rgba(214,142,59,1) 100%);
+}
+
