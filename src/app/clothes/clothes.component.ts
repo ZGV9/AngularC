@@ -14,9 +14,13 @@ export class ClothesComponent {
 }
 
 Swal.fire({
-  title: "Welcome",
-  background: "#abdbe3",
+  title: "WELCOME TO THE ONLINE SHOP IMS24",
+  background: "#990033",
   icon: "question",
   color: "#000",
   showConfirmButton:false,
+  iconColor: '#000',
+  timer: 2680,
+  timerProgressBar:true,
 });
+
