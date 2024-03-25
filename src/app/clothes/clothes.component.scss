@@ -4,7 +4,7 @@
     object-fit: cover;
     border-radius: 25px;
 }
-// opcion  ******************COLORES******************************COLORES*****************COLORES***************************
+// OPCION  ******************COLORES******************************COLORES*****************COLORES***************************
 // .card{
 //     margin: 10px;
 //     -webkit-box-shadow: 5px 5px 0px 0px #c51c6e5f, 10px 10px 0px 0px #3b3f88a7, 15px 15px 0px 0px #708ac1a0, 20px 20px 0px 0px #c51c6e6a, 25px 25px 0px 0px #af239875, 4px 6px 8px 16px rgba(255,0,215,0); 
@@ -13,13 +13,20 @@
 
 // ****************COLORES********************************COLORES********************COLORES************************
 
-// // opcion  ******************NEUTRO******************************NEUTRO***************NEUTRO*****************************
+// // OPCION  ******************NEUTRO******************************NEUTRO***************NEUTRO*****************************
 .card{
-        margin: 10px;
-        -webkit-box-shadow: 5px 5px 0px 0px #0825336d, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #583b14, 20px 20px 0px 0px #683d0464, 25px 25px 0px 0px #0b284f, 4px 6px 8px 16px rgba(255,0,215,0); 
-    box-shadow: 5px 5px 0px 0px #462701d9, 10px 10px 0px 0px #663e02be, 15px 15px 0px 0px #7a4802cf, 20px 20px 0px 0px #8c5105a9, 25px 25px 0px 0px #7a47059a, 4px 6px 8px 16px rgba(255,0,215,0);
+        margin: 30px;
+        -webkit-box-shadow: 5px 5px 0px 0px #0825336d, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #583b14, 20px 20px 0px 0px #683d0464, 25px 25px 0px 0px #0b284f, 4px 6px 8px 16px rgba(0, 0, 0, 0); 
+    box-shadow: 5px 5px 0px 0px #00000081, 10px 10px 0px 0px #00000034, 15px 15px 0px 0px #0000003b, 20px 20px 0px 0px #0000003c, 25px 25px 0px 0px #0000003c, 4px 6px 8px 16px rgba(0, 0, 0, 0);
     }
 
 //     // *****************NEUTRO*******************************NEUTRO****************************NEUTRO****************
 
+.card-title{
+    color: rgb(255, 213, 0);
+}
+.card-text {
+    color: #ffffff;
+    font-size: 18px;
+}
 
