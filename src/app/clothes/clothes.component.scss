@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 // OPCION  ******************COLORES******************************COLORES*****************COLORES***************************
 // .card{
@@ -15,18 +15,20 @@
 
 // // OPCION  ******************NEUTRO******************************NEUTRO***************NEUTRO*****************************
 .card{
-        margin: 30px;
+        margin: 50px;
         -webkit-box-shadow: 5px 5px 0px 0px #0825336d, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #583b14, 20px 20px 0px 0px #683d0464, 25px 25px 0px 0px #0b284f, 4px 6px 8px 16px rgba(0, 0, 0, 0); 
-    box-shadow: 5px 5px 0px 0px #00000081, 10px 10px 0px 0px #00000034, 15px 15px 0px 0px #0000003b, 20px 20px 0px 0px #0000003c, 25px 25px 0px 0px #0000003c, 4px 6px 8px 16px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #ffffff81, 10px 10px 0px 0px #ffffff34, 15px 15px 0px 0px #ffffff3b, 20px 20px 0px 0px #ffffff3c, 25px 25px 0px 0px #0000003c, 4px 6px 8px 16px rgba(0, 0, 0, 0);
     }
 
 //     // *****************NEUTRO*******************************NEUTRO****************************NEUTRO****************
 
 .card-title{
-    color: rgb(255, 213, 0);
+    color: rgb(255, 255, 255);
+    border: inset 4px whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
 }
 .card-text {
     color: #ffffff;
     font-size: 18px;
 }
-
