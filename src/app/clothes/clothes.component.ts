@@ -26,13 +26,22 @@ export class ClothesComponent {
 }
 
 
-Swal.fire({
-  title: "WELCOME TO THE ONLINE SHOP IMS24",
-  background: "#fff",
-  color: "#000",
-  showConfirmButton:false,
-  iconColor: '#000',
-  timer: 2400,
-  timerProgressBar:true,
-});
+// Swal.fire({
+//   title: "WELCOME TO THE ONLINE SHOP ~IMS24~",
+//   background: "#fff",
+//   color: "#000",
+//   showConfirmButton:false,
+//   iconColor: '#000',
+//   timer: 2400,
+//   timerProgressBar:true,
+// });
 
+Swal.fire({
+  title: "WELCOME TO THE ONLINE SHOP ~IMS24~",
+  width: 450,
+  padding: "7em",
+  color: "#fff",
+  background: "#fff url(assets/imgClothes/bckgrd2.gif)",
+  showConfirmButton:false,
+  timer: 2500,
+});

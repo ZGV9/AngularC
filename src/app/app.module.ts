@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ToolBarComponent } from './tool-bar/tool-bar.component';
 import { ClothesComponent } from './clothes/clothes.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsComponent } from './components/reactive-forms/reactive-forms.component';
+import { TemplateDrivenComponent } from './components/template-driven/template-driven.component';
 
 
 @NgModule({
@@ -14,10 +17,14 @@ import { ClothesComponent } from './clothes/clothes.component';
     NavBarComponent,
     ToolBarComponent,
     ClothesComponent,
+    ReactiveFormsComponent,
+    TemplateDrivenComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
