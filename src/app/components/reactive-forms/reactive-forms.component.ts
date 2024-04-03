@@ -6,12 +6,14 @@ import {
   Validators,
 } from '@angular/forms';
 import Swal from 'sweetalert2';
+import { AbstractControl, ValidatorFn } from '@angular/forms';
 
 @Component({
   selector: 'app-reactive-forms',
   templateUrl: './reactive-forms.component.html',
   styleUrl: './reactive-forms.component.scss',
 })
+
 export class ReactiveFormsComponent {
 
   userForm = this.formBuilder.group({

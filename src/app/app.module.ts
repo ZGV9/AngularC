@@ -8,8 +8,6 @@ import { ToolBarComponent } from './tool-bar/tool-bar.component';
 import { ClothesComponent } from './clothes/clothes.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReactiveFormsComponent } from './components/reactive-forms/reactive-forms.component';
-import { TemplateDrivenComponent } from './components/template-driven/template-driven.component';
-
 
 @NgModule({
   declarations: [
@@ -18,7 +16,6 @@ import { TemplateDrivenComponent } from './components/template-driven/template-d
     ToolBarComponent,
     ClothesComponent,
     ReactiveFormsComponent,
-    TemplateDrivenComponent,
   ],
   imports: [
     BrowserModule,
